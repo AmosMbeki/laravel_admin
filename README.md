@@ -11,3 +11,6 @@
 >>> php artisan make:controller UserController --api
 
 >>> php artisan route:list
+
+# Database seeder
+>>> php artisan db:seed
