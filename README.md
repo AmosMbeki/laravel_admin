@@ -34,3 +34,10 @@
 ### Json Resources - Used to create API objects
 >>> php artisan make:resource UserResource
 >>> php artisan make:resource PermissionResource
+
+### Create Seeder | Attach, Detach and Sync collections
+
+>>> php artisan make:seeder UserSeeder
+>>> php artisan make:seeder RoleSeeder
+>>> php artisan make:seeder PermissionSeeder
+php artisan db:seed --class=PermissionSeeder
