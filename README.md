@@ -24,3 +24,5 @@
 >>> php artisan make:migration create_permissions_table
 >>> php artisan migrate
 >>> php artisan ide:models
+
+>>> php artisan migrate:rollback
