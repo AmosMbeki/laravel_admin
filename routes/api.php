@@ -4,6 +4,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\AuthController;
 use App\Http\Controllers\RoleController;
 use App\Http\Controllers\UserController;
+use App\Http\Controllers\ImageController;
 use App\Http\Controllers\ProductController;
 use App\Http\Controllers\PermissionController;
 
@@ -26,4 +27,5 @@ Route::middleware('auth:sanctum')->group(function (){
     Route::get('permissions', [PermissionController::class, 'index']);
     Route::apiResource('products', ProductController::class);
     Route::apiResource('roles', RoleController::class);
+    Route::post('upload', [ImageController::class, 'upload']);
 });
