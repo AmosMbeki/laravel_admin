@@ -1,5 +1,5 @@
 # Auth Controller
-## Custom Request
+## Custom Request - validation
 >>> php artisan make:request RegisterRequest
 
 ## IDE Helper Configuration
@@ -12,5 +12,9 @@
 
 >>> php artisan route:list
 
-# Database seeder
+### Database seeder
 >>> php artisan db:seed
+
+## Creating Custom User Request - validation
+>>> php artisan make:request UserCreateRequest
+>>> php artisan make:request UserUpdateRequest
