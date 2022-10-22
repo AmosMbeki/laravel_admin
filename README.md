@@ -26,3 +26,7 @@
 >>> php artisan ide:models
 
 >>> php artisan migrate:rollback
+
+### Role Factory
+>>> php artisan make:factory RoleFactory
+>>> php artisan db:seed
