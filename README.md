@@ -18,3 +18,9 @@
 ## Creating Custom User Request - validation
 >>> php artisan make:request UserCreateRequest
 >>> php artisan make:request UserUpdateRequest
+
+### Roles and Permissions
+>>> php artisan make:migration create_roles_table
+>>> php artisan make:migration create_permissions_table
+>>> php artisan migrate
+>>> php artisan ide:models
