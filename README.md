@@ -30,3 +30,6 @@
 ### Role Factory
 >>> php artisan make:factory RoleFactory
 >>> php artisan db:seed
+
+### Json Resources - Used to create API objects
+>>> php artisan make:resource UserResource
