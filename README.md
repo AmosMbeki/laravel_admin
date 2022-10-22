@@ -33,3 +33,4 @@
 
 ### Json Resources - Used to create API objects
 >>> php artisan make:resource UserResource
+>>> php artisan make:resource PermissionResource

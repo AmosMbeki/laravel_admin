@@ -26,7 +26,7 @@ class RoleController extends Controller
     
     public function show($id)
     {
-        return new RoleResource(Role::find($id));
+        return new RoleResource(Role::with('permissions')->find($id));
     }
 
     
